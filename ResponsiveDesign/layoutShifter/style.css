@@ -21,6 +21,7 @@ html {
 }
 .c4 {
   height: auto;
+  /* important because so it grow with its content. KEY */
 }
 .c1 {
   background-color: #003476;
@@ -50,7 +51,7 @@ html {
 }
 @media (min-width: 800px) {
   .container {
-    width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -60,6 +61,7 @@ html {
   }
   .c4 {
     width: 100%;
+    order:3;
   }
   .c5 {
     width: 50%;
