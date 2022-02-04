@@ -1,5 +1,5 @@
 .container {
-  width: 800px;
+  max-width: 1200px; /* Changing the width to max-width for less space in the margins.*/
   margin-left: auto;
   margin-right: auto;
 }
