@@ -6,17 +6,75 @@
     <title>Calendario</title> 
   </head>
   <body>
+    <!-- Large format calendar -->
+    <!--the name is important for to identify that is sent to the database -->
     <main>
       <form action="">
-        <label for="nombre">
-          <span>¿Cual es tu nombre?</span>
+        <label for="hora">
+          <span>Hora</span>
+          <input
+            type="time"
+            name="hora" 
+            id="hora"/> 
+        </label>
+
+        <label for="Dia">
+          <span>Día</span>
+          <input
+            type="date"
+            name="Dia"
+            id="Dia"/>
+        </label>
+
+        <label for="semana">
+          <span>Semana</span>
+          <input
+            type="week"
+            name="semana"
+            id="semana"/>
+        </label>
+
+        <label for="mes">
+          <span>Mes</span>
+          <input
+            type="month"
+            name="mes"
+            id="mes"/>
+        </label>
+
+        <input type="submit" />
+      </form>
+    </main>
+
+    <!--Brief format calendar-->
+
+    <main>
+      <form action="">
+        <label for="calendar">
+          <span>Hora</span>
+          <input
+            type="datetime-local"
+            name="calendar" 
+            id="calendar"/> 
+        </label>
+
+        <input type="submit" />
+      </form>
+    </main>
+
+    <!-- the use of the required and autocomplete -->
+
+    <main>
+      <form action="">
+        <label for="hora">
+          <span>¿Cual es tu hora?</span>
           <input
             type="text"
-            name="nombre" 
-            id="nombre"
+            name="hora" 
+            id="hora"
             autocomplete="name"
             required
-          /> <!--the name is important because to identify that is sent to the database-->
+          /> 
         </label>
         <label for="correo">
           <span>¿Cual es tu email?</span>
@@ -50,6 +108,7 @@
         </label>
         <input type="submit" />
       </form>
-    </main>
+    </main> 
+    
   </body>
 </html>
