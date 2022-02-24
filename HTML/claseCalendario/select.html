@@ -7,19 +7,36 @@
   </head>
   <body>
     <main>
-      <!-- <select name="cursos" id="">
+      <!-- Select format -->
+      <form action="">
+      <fieldset>
+        <legend>Recomendado para pocas opciones</legend>
+      <select name="cursos" id="">
         <option value="JavaScript">JavaScript</option>
         <option value="HTML5">HTML5</option>
         <option value="CSS3">CSS3</option>
         <option value="Web Standards">Web Standards</option>
-      </select> -->
-      <input list="cursos" />
+      </select>
+      <input type="submit">
+    </form>
+      
+    </fieldset>
+    <br><br>
+    
+  <!-- Input_list format -->
+    <form action="">
+      <fieldset>
+        <legend>Recomendado para varias opciones y en el mobile</legend>
+      <input list="cursos" name="courses"/>
       <datalist id="cursos">
         <option value="JavaScript"></option>
         <option value="HTML5"></option>
         <option value="CSS3"></option>
         <option value="Web Standards"></option>
       </datalist>
+      <input type="submit">
+    </fieldset>
+    </form>
     </main>
   </body>
 </html>
