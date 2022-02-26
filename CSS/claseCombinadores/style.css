@@ -1,3 +1,15 @@
-div p {
+h2 + p { /*Adjacents siblings*/
+color: blue;
+}
+
+h3 ~ p { /*General siblings*/
+  color: orange;
+}
+
+article > p { /*Child combinator*/
+  color: green;
+}
+
+div p { /*Descendant combinator*/
   color: red;
 }
