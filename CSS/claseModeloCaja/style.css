@@ -1,5 +1,5 @@
-* {
-  box-sizing: border-box;
+ *{
+  box-sizing: border-box; /*sum the content, padding and border for to have better control of the box dimensions */
   padding: 0;
   margin: 0;
 }
