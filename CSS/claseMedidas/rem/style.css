@@ -4,7 +4,7 @@
   padding: 0;
 }
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /*This is the trick*/
 }
 p {
   font-size: 1.6rem;
