@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.header-main
+{
+    background-color: #666;
+    width: 100vw;
+    height: 10vh;
+}
+
+.main 
+{
+    background-color: #33b;
+    width: 70vw;
+    height: 85vh;
+    display: inline-block;
+    position: relative;
+    left: 30vw;
+}
+
+.aside
+{
+    background-color: #2b3;
+    width: 30vw;
+    height: 85vh;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.footer
+{
+    background-color: #666;
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    bottom:1vh;
+}
+
+.header-main span
+{
+    color: #f00;
+    padding: 3rem 0;
+    font-size: 2rem;
+
+}
+
+.header-main__ul
+{
+    
+    position: absolute;
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+}
+
+.header-main__li
+{
+    display: inline-block;
+    margin: 1rem 3rem;
+}
+
+.header-main__li:hover
+{
+    color:#eee
+    
+}
+
+.header-main__li:active
+{
+    color: #d44
+    
+}
+
+.aside__div
+{
+    width: 60%;
+    height: 20%;
+    background-color: #0b6;
+    margin: 2rem;
+    padding: 2.2rem;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+
+.aside__div:hover
+{
+    background-color: #ddd;
+}
+
+.aside__div:active
+{
+    background-color: #d44;
+}
+.main__div
+{
+    width: 30%;
+    height: 20%;
+    background-color: #06b;
+    margin: 2rem;
+    padding: 2.2rem;
+    text-align: center;
+    font-size: 2.2rem;
+    display: inline-block;
+}
+
+.main__div:hover
+{
+    background-color: #0ff;
+}
+
+.main__div:active
+{
+    background-color: #d44;
+}
+
+.main__section
+{
+    background-color: #ddd;
+    margin: 3rem;
+}
+
+.main .main__section--Two
+{
+    background-color: #aaa;
+    margin: 3rem;
+}
+
+/* .main__section:hover
+{
+    background-color: #aaa;
+}
+
+.main .main__section--Two:hover
+{
+    background-color: #ddd;
+} */
