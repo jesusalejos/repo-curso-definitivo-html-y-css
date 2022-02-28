@@ -1,6 +1,6 @@
 main {
   background-color: red;
-  width: 600px;
+  width: 100%; /*measures in percentage*/
   height: 500px;
 }
 p {
