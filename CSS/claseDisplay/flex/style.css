@@ -12,7 +12,12 @@ body {
 .container {
   border: 0.3rem solid black;
   display: flex;
+  height: 50vh;
   flex-wrap: wrap;
+  /* flex-direction: column; */
+  flex-wrap: wrap; /*Depending of the size of the vp it can automatically*/
+  justify-content:space-between; /*Automatically it accommodate all*/
+  align-items: center; /*I like baseline cause so we can accomodate to the content. But the box without size*/
 }
 .box {
   height: 10rem;
@@ -21,6 +26,7 @@ body {
 }
 .box1 {
   background-color: blue;
+  /* order: 6; This is interesesting cause we can to modificate the order of the boxs */
 }
 .box2 {
   background-color: blueviolet;
